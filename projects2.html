@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Potential Projects in Complexity Theory</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <script src="/usr/share/javascript/mathjax/MathJax.js?config=TeX-AMS_CHTML-full" type="text/javascript"></script>
+</head>
+<body>
+<nav id="TOC">
+<ul>
+<li><a href="#potential-projects-in-complexity-theory">Potential Projects in Complexity Theory</a><ul>
+<li><a href="#project-requirement">Project Requirement</a></li>
+<li><a href="#claiming-projects">Claiming Projects</a></li>
+<li><a href="#guidelines-for-reading-survey-projects">Guidelines For Reading (Survey) Projects</a></li>
+<li><a href="#guideline-for-research-projects">Guideline For Research Projects</a></li>
+<li><a href="#project-list">Project List</a></li>
+<li><a href="#circuit-lower-bounds">Circuit Lower Bounds</a></li>
+<li><a href="#arithmetic-circuits-algebraic-complexity">Arithmetic Circuits / Algebraic Complexity</a></li>
+<li><a href="#quantum-complexity-theory">Quantum Complexity Theory</a></li>
+<li><a href="#derandomization">Derandomization</a></li>
+<li><a href="#explicit-constructions">Explicit Constructions</a></li>
+<li><a href="#query-complexity-and-communication-complexity">Query Complexity and Communication Complexity</a></li>
+<li><a href="#fine-grained-complexity">Fine-Grained Complexity</a></li>
+<li><a href="#proof-systems">Proof Systems</a><ul>
+<li><a href="#pcp-like-proof-systems">PCP-like proof systems</a></li>
+</ul></li>
+<li><a href="#geometric-complexity-theory">Geometric Complexity Theory</a><ul>
+<li><a href="#recent-developments">Recent Developments</a></li>
+</ul></li>
+<li><a href="#other-topics">Other Topics</a></li>
+<li><a href="#minimum-circuit-size-problem">Minimum Circuit Size Problem</a></li>
+</ul></li>
+</ul>
+</nav>
+<h1 id="potential-projects-in-complexity-theory">Potential Projects in Complexity Theory</h1>
+<h2 id="project-requirement">Project Requirement</h2>
+<ul>
+<li>The final project is done by yourself or with at most 2 others.</li>
+<li>This will consist of a project proposal (1-2 pages), periodic project progress updates (1-2 pages), a final project paper (at least 5 pages), and a final presentation in class. Due dates can be seen at https://people.csail.mit.edu/rrw/6.841-2022/.</li>
+<li>At the dates they are due, the project proposal, progress updates, and final project paper should be emailed to the course instructor (<a href="rrw@mit.edu">Ryan</a>) and the TAs (<a href="nikhilv@mit">Nikhil</a> and <a href="naysh@mit.edu">Shyan</a>).</li>
+<li>Your project could be a survey of a complexity-related topic we haven’t covered in class, or it consist of a new theorem (or set of new propositions) about some complexity-related topic.</li>
+</ul>
+<h2 id="claiming-projects">Claiming Projects</h2>
+<p>Guidelines for survey and research projects are listed below, but as soon as you have an idea for what paper(s) you’d like to base your project on:</p>
+<ul>
+<li><strong>Confirm that you project has not been already claimed:</strong> https://docs.google.com/spreadsheets/d/1DYN8xYcSXyqw1jiJh4VmiTWdA3tfPf_aYrYYHCoqKBg/edit?usp=sharing.</li>
+<li>Email the course TAs (<a href="nikhilv@mit">Nikhil</a> and <a href="naysh@mit.edu">Shyan</a>) with your name, the names of any others in your group (if you ware working with others), and the names of the papers you’re interested in working through. If you are interested in more collaborators for your project you can let us know that in the email.</li>
+<li>Please send this email as soon as you have a good sense of what papers you’d like to read for the project. In particular, it’s good to email and claim which paper(s) you’re interested before the actual project proposal deadline, to avoid overlapping too much with other students’ projects.</li>
+</ul>
+<h2 id="guidelines-for-reading-survey-projects">Guidelines For Reading (Survey) Projects</h2>
+<ul>
+<li>In general, you are allowed to pick any complexity-related topic (that is not covered in class) that interests you (but check with us first!).</li>
+<li>You are encouraged to study several interesting frontier papers on that topic, and compose them into a survey with a coherent story. Of course, if you find recent papers too hard to read (which is very possible), you can also pick some older and more reader-friendly papers.</li>
+<li>You are of course not required to prove all the things in the surveyed papers. You can just give the high-level ideas of the proofs, and/or omit technical things which in your opinion won’t help the reader to understand things better.</li>
+<li>Even if you are doing a survey, we are expecting something <em>new and original</em> from you. You should put your efforts into the survey so that the exposition there has some <strong>advantage over the original papers</strong> (in other words, your survey should make people <strong>want to read your survey instead of the original papers</strong>).</li>
+<li>Please remember that <strong>copying is plagiarism, and you should not do it</strong>. Ryan reads <strong>LOTS</strong> of papers, and is likely to tell if a section is copied from a paper you have read.</li>
+</ul>
+<h2 id="guideline-for-research-projects">Guideline For Research Projects</h2>
+<ul>
+<li>Since complexity theory is considered to be a hard subject, we recommend you to study many previous works on your research topic first so that if you end up with no new theorems, it can be smoothly changed to a reading project.</li>
+<li>Please don’t use a project which you are already working on as the course project. But you are encouraged to connect your research field to the course material, and start a project based on that.</li>
+</ul>
+<h2 id="project-list">Project List</h2>
+<ul>
+<li>The project list below offers some suggestions on potential research or reading topics. It is absolutely OK if you want to pick another topic which is not listed below. But make sure your topic is complexity-related (remember, check with us to make sure it is related!).</li>
+</ul>
+<h2 id="circuit-lower-bounds">Circuit Lower Bounds</h2>
+<h4 id="the-algorithmic-methods-towards-circuit-lower-bounds">The Algorithmic Methods Towards Circuit Lower Bounds</h4>
+<p>The algorithmic method connects non-trivial circuit analysis algorithms and circuit lower bounds. The following two works establish a connection between <span class="math inline">\(2^{n-n^{\varepsilon}}\)</span>–time circuit analysis algorithms and lower bounds for non-deterministic quasi-polynomial time.</p>
+<p><a href="http://people.csail.mit.edu/rrw/easy-witness-nqp.pdf">Circuit Lower Bounds for Nondeterministic Quasi-Polytime: An Easy Witness Lemma for NP and NQP</a></p>
+<p><a href="https://eccc.weizmann.ac.il/report/2019/031/">Non-deterministic Quasi-Polynomial Time is Average-case Hard for <span class="math inline">\(\textsf{ACC}\)</span> Circuits</a></p>
+<p>The following paper shows how to extend the above methods in the case of average-case complexity (note: this is longer and more technical than prior work):</p>
+<p><a href="https://eccc.weizmann.ac.il/report/2020/010/">Strong Average-Case Circuit Lower Bounds from Non-trivial Derandomization</a></p>
+<p>In the following two works, the authors apply the algorithmic method to prove lower bounds against certain exact / approximation linear combinations of simple functions.</p>
+<p><a href="http://drops.dagstuhl.de/opus/volltexte/2018/8884/">Limits on Representing Boolean Functions by Linear Combinations of Simple Functions: Thresholds, ReLUs, and Low-Degree Polynomials</a></p>
+<p><a href="http://drops.dagstuhl.de/opus/frontdoor.php?source_opus=10841">Stronger Connections Between Circuit Analysis and Circuit Lower Bounds, via PCPs of Proximity</a></p>
+<h4 id="hardness-magnification">Hardness Magnification</h4>
+<p>Hardness magnification is a striking phenomenon which shows that <em>weak</em> fixed-polynomial lower bounds (say, <span class="math inline">\(n^{1+\varepsilon}\)</span>) for certain problems can be <em>magnified</em> to strong super-polynomial lower bounds, and therefore suggests a way to solving some long-standing open problems in complexity theory.</p>
+<p><a href="https://eccc.weizmann.ac.il/report/2018/139/">Hardness Magnification for Natural Problems</a></p>
+<p><a href="https://eccc.weizmann.ac.il/report/2018/158/">Hardness magnification near state-of-the-art lower bounds</a></p>
+<p><a href="https://eccc.weizmann.ac.il/report/2019/075/">Relations and Equivalences Between Circuit Lower Bounds and Karp-Lipton Theorems</a></p>
+<p><a href="http://people.csail.mit.edu/rrw/MCSP-MKTP-stoc19.pdf">Weak Lower Bounds on Resource-Bounded Compression Imply Strong Separations of Complexity Classes</a></p>
+<p><a href="https://eccc.weizmann.ac.il/report/2019/118/">Hardness Magnification for all Sparse NP Languages</a></p>
+<p>This paper proves some results related to hardness magnification, quantified derandomization, and explicit obstructions:</p>
+<p><a href="https://eccc.weizmann.ac.il/report/2020/065/">Sharp Threshold Results for Computational Complexity</a></p>
+<h4 id="non-rigidity-of-matrices">Non-rigidity of Matrices:</h4>
+<p>Constructing rigid matrices is a well-known but notoriously difficult problem in complexity theory. There are some surprising recent works showed that several candidate matrices are not as rigid as we thought.</p>
+<p>See this paper and the references therein:</p>
+<p><a href="https://arxiv.org/abs/1902.07334">Fourier and Circulant Matrices are Not Rigid</a></p>
+<h4 id="karp-lipton-theorems">Karp-Lipton Theorems</h4>
+<p>See this paper and the references therein:</p>
+<p><a href="https://eccc.weizmann.ac.il/report/2019/075/">Relations and Equivalences Between Circuit Lower Bounds and Karp-Lipton Theorems</a></p>
+<p>You can also find a survey on these sorts of results on <a href="https://sites.google.com/site/roeitell/Expositions">Roei Tell’s webpage</a>.</p>
+<h2 id="arithmetic-circuits-algebraic-complexity">Arithmetic Circuits / Algebraic Complexity</h2>
+<h4 id="hardness-vs-randomness-for-arithmetic-circuits">Hardness vs Randomness for Arithmetic Circuits</h4>
+<p>See this paper and the references therein:</p>
+<p><a href="https://eccc.weizmann.ac.il/report/2019/065/">Derandomization from Algebraic Hardness: Treading the Borders</a></p>
+<h2 id="quantum-complexity-theory">Quantum Complexity Theory</h2>
+<h4 id="quantum-advantage-for-shallow-circuits">Quantum Advantage for Shallow Circuits</h4>
+<p>See this paper and the references therein:</p>
+<p><a href="http://eccc.weizmann.ac.il/report/2019/089/">Exponential separation between shallow quantum circuits and unbounded fan-in shallow classical circuits</a></p>
+<h4 id="oracle-separation-for-bqp-from-ph">Oracle Separation for BQP from PH</h4>
+<p>See the following two papers:</p>
+<p><a href="http://eccc.weizmann.ac.il/report/2018/107/">Oracle Separation of BQP and PH</a></p>
+<p><a href="https://eccc.weizmann.ac.il/report/2018/015/">Pseudorandom Generators from Polarizing Random Walks</a></p>
+<h4 id="polynomial-methods-in-quantum-complexity">Polynomial Methods in Quantum Complexity</h4>
+<p>A few recent papers in this area:</p>
+<p><a href="https://arxiv.org/abs/1904.08914">Quantum Lower Bounds for Approximate Counting via Laurent Polynomials</a></p>
+<p><a href="https://arxiv.org/abs/1710.09079">The Polynomial Method Strikes Back: Tight Quantum Query Bounds via Dual Polynomials</a></p>
+<p>Some older papers in this area:</p>
+<p><a href="https://www.scottaaronson.com/papers/collision.pdf">Quantum Lower Bound for the Collision Problem</a></p>
+<p><a href="https://dl.acm.org/citation.cfm?id=1008735">Quantum lower bounds for the collision and the element distinctness problems</a></p>
+<p><a href="https://core.ac.uk/download/pdf/82107059.pdf">Polynomial degree vs. quantum query complexity</a></p>
+<h4 id="lower-bounds-for-quantum-merlin-author-protocols">Lower Bounds for Quantum Merlin-Author Protocols</h4>
+<p>See the following papers and the references therein:</p>
+<p><a href="https://eccc.weizmann.ac.il/report/2019/121/">Vanishing-Error Approximate Degree and QMA Complexity</a></p>
+<p>&lt;<a href="https://eccc.weizmann.ac.il/report/2019/062/">Quantum Lower Bounds for Approximate Counting via Laurent Polynomials</a></p>
+<p><a href="https://www.scottaaronson.com/papers/szkqma.pdf">Impossibility of Succinct Quantum Proofs for Collision-Freeness</a></p>
+<h4 id="quantum-advantage">Quantum Advantage</h4>
+<p>See the following papers and the references therein:</p>
+<p><a href="https://eccc.weizmann.ac.il//report/2016/200/">Complexity-Theoretic Foundations of Quantum Supremacy Experiments</a></p>
+<p><a href="https://arxiv.org/pdf/1809.07442.pdf">Quantum Computational Supremacy</a></p>
+<p><a href="https://arxiv.org/abs/1803.04402">Quantum Supremacy and the Complexity of Random Circuit Sampling</a></p>
+<h2 id="derandomization">Derandomization</h2>
+<h4 id="derandomization-of-stronger-complexity-classes">Derandomization of Stronger Complexity Classes</h4>
+<p>Stronger circuit lower bounds imply <span class="math inline">\(\textsf{AM} = \textsf{NP}\)</span>. See the following paper and its references:</p>
+<p><a href="https://eccc.weizmann.ac.il//eccc-reports/2004/TR04-086/index.html">Pseudorandomness for Approximate Counting and Sampling</a></p>
+<h4 id="derandomization-under-uniform-assumptions">Derandomization under uniform assumptions</h4>
+<p>The influential paradigm of hardness vs randomness shows that under certain non-uniform assumptions (<span class="math inline">\(\textsf{E}\)</span> is not in <span class="math inline">\(\text{i.o.SIZE}[2^{o(n)}]\)</span>, <span class="math inline">\(\textsf{P} = \textsf{BPP}\)</span>). There is also a line of work studying what type of derandomization we can get from uniform assumptions (such as <span class="math inline">\(\textsf{E} \neq \textsf{BPP}\)</span>).</p>
+<p>See the following papers and the references therein:</p>
+<p><a href="http://www.math.ias.edu/~avi/PUBLICATIONS/MYPAPERS/IW98/proc.pdf">Randomness vs. Time: De-randomization under a uniform assumption</a></p>
+<p><a href="http://www.cs.tau.ac.il/~amnon/Papers/GST.cc.pdf">Uniform Hardness Versus Randomness Tradeoffs For Arthur–Merlin Games</a></p>
+<p><a href="https://people.seas.harvard.edu/~salil/research/uniform-cc.pdf">Pseudorandomness and Average-Case Complexity via Uniform Reductions</a></p>
+<p><a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.154.5218&amp;rep=rep1&amp;type=pdf">Low-end uniform hardness vs. randomness tradeoffs for AM</a></p>
+<h4 id="quantified-derandomization">Quantified Derandomization</h4>
+<p>See these papers and the references therein:</p>
+<p><a href="https://eccc.weizmann.ac.il/report/2017/145/">Quantified derandomization of linear threshold circuits</a></p>
+<p><a href="https://eccc.weizmann.ac.il//report/2016/191/">Improved Bounds for Quantified Derandomization of Constant-Depth Circuits and Polynomials</a></p>
+<h4 id="nearly-optimal-derandomization">Nearly-Optimal Derandomization</h4>
+<p><a href="https://eccc.weizmann.ac.il/report/2019/099">Nearly Optimal Pseudorandomness From Hardness</a></p>
+<p>Here’s a more work that adds some additional context to the above paper:</p>
+<p><a href="https://eccc.weizmann.ac.il/report/2020/148/">Simple and fast derandomization from very hard functions: Eliminating randomness at almost no cost</a></p>
+<h4 id="derandomization-of-low-space-algorithms">Derandomization of low space algorithms</h4>
+<h5 id="connectivity-in-logspace">Connectivity in LOGSPACE</h5>
+<p>The following paper proved the breakthrough result that connectivity is in LOGSPACE.</p>
+<p><a href="https://omereingold.files.wordpress.com/2014/10/sl.pdf">Undirected Connectivity in Log-Space</a></p>
+<p>It builds on the paper:</p>
+<p><a href="https://omereingold.files.wordpress.com/2014/10/zigzag-annals.pdf">Entropy Waves, The Zig-Zag Graph Product, and New Constant-Degree Expanders</a></p>
+<p>The following paper shows if it can be extended a bit, then we can derandomize all of randomized log space:</p>
+<p><a href="https://omereingold.files.wordpress.com/2017/06/regular.pdf">Pseudorandom Walks on Regular Digraphs and the RL vs. L Problem</a></p>
+<h5 id="prg-for-branching-programs">PRG for Branching Programs</h5>
+<p>There are some recent exciting developments on PRG (or HSG) for branching programs:</p>
+<p><a href="https://eccc.weizmann.ac.il/report/2018/112/">Pseudorandom Generators for Width-3 Branching Programs</a></p>
+<p><a href="https://eccc.weizmann.ac.il/report/2018/147/">Pseudorandom Generators for Read-Once Branching Programs, in any Order</a></p>
+<p><a href="https://eccc.weizmann.ac.il/report/2018/063/">Simple Optimal Hitting Sets for Small-Success RL</a></p>
+<p><a href="https://eccc.weizmann.ac.il/report/2017/161/">Pseudorandom Pseudo-Distributions with Near-Optimal Error for Read-Once Branching Programs</a></p>
+<p><a href="https://arxiv.org/abs/1610.01199">Targeted Pseudorandom Generators, Simulation Advice Generators, and Derandomizing Logspace</a></p>
+<p>There are also some more classic papers on this topic</p>
+<p><a href="https://www.math.ucsd.edu/~sbuss/CourseWeb/Math268_2013W/Nisan_PRG.pdf">Pseudorandom Generators For Space-Bounded Computation</a></p>
+<p><a href="http://www.math.ias.edu/~avi/PUBLICATIONS/MYPAPERS/INW94/proc.pdf">Pseudorandomness for Network Algorithms</a></p>
+<p><a href="http://www.cs.tau.ac.il/~amnon/Classes/MISC/2004-Seminar-hardness-amplification/sz.pdf"><span class="math inline">\(\text{BP}_{\text{H}}\text{SPACE}(S) \subseteq \text{DSPACE}(S^{3/2})\)</span></a></p>
+<h4 id="unconditional-construction-of-prgs">Unconditional construction of PRGs</h4>
+<p>There are some recent works on PRG for a variety of computational models</p>
+<p><a href="https://eccc.weizmann.ac.il/report/2018/183/">Near-Optimal Pseudorandom Generators for Constant-Depth Read-Once Formulas</a></p>
+<p><a href="https://eccc.weizmann.ac.il/report/2018/015/">Pseudorandom Generators from Polarizing Random Walks</a></p>
+<p><a href="https://eccc.weizmann.ac.il/report/2018/155/">Pseudorandom generators from the second Fourier level and applications to AC0 with parity gates</a></p>
+<p>Some earlier works</p>
+<p><a href="https://eccc.weizmann.ac.il/report/2012/057/">Pseudorandomness from Shrinkage</a></p>
+<p><a href="https://arxiv.org/abs/0910.4122">Pseudorandom Generators for Polynomial Threshold Functions</a></p>
+<p><a href="https://eccc.weizmann.ac.il/report/2010/176/">Pseudorandom Generators for Combinatorial Shapes</a></p>
+<h4 id="typical-correct-derandomization">Typical-Correct Derandomization</h4>
+<p>See the following papers</p>
+<p><a href="https://eccc.weizmann.ac.il//eccc-reports/2002/TR02-039/index.html">Derandomization that is rarely wrong from short advice that is typically good</a></p>
+<p><a href="http://pages.cs.wisc.edu/~dieter/Papers/r-typical-full.pdf">Pseudorandom Generators, Typically-Correct Derandomization, and Circuit Lower Bounds</a></p>
+<p><a href="https://arxiv.org/abs/1711.00565">Typically-Correct Derandomization for Small Time and Space</a></p>
+<h2 id="explicit-constructions">Explicit Constructions</h2>
+<p>The following recent paper proves some interesting complexity characterizations of what it would mean to “derandomize the probabilistic method” for certain problems. The arguments are fairly accessibe and the results have many interesting imlications:</p>
+<p><a href="https://arxiv.org/abs/2106.00875">The Hardest Explicit Construction</a></p>
+<h2 id="query-complexity-and-communication-complexity">Query Complexity and Communication Complexity</h2>
+<h4 id="lifting-theorems">Lifting Theorems</h4>
+<p>Recently, there is a line of beautiful works focusing on the so-called <em>lifting theorems</em>, which shows query complexity lower bounds (which is usually easier to prove) can be <em>lifted</em> to a communication complexity lower bound (which is usually harder to prove).</p>
+<p>See this paper and the references therein</p>
+<p><a href="https://eccc.weizmann.ac.il/report/2019/103">Query-to-Communication Lifting Using Low-Discrepancy Gadgets</a></p>
+<h2 id="fine-grained-complexity">Fine-Grained Complexity</h2>
+<h4 id="hardness-of-approximation-in-fine-grained-complexity">Hardness of Approximation in Fine-Grained Complexity</h4>
+<p>The past few years have seen conjectures from fine-grained complexity being used to prove interesting hardness results for various approximation problems, using interesting reduction frameworks. A good starting paper in this area is the following:</p>
+<p><a href="https://arxiv.org/abs/1706.06407">Distributed PCP Theorems for Hardness of Approximation in <span class="math inline">\(\textsf{P}\)</span></a></p>
+<h4 id="algebraic-methods-in-fine-grained-complexity">Algebraic Methods in Fine-Grained Complexity</h4>
+<p>The program of fine-grained complexity is very successful at exact problems (problems in which an exact solution is sought). But we know less about the exact running time of approximation problems in <span class="math inline">\(\textsf{P}\)</span>. To resolve these questions there are recent works apply algebraic methods to fine-grained complexity.</p>
+<p>This paper and the references therein offer some applications of this type:</p>
+<p><a href="https://arxiv.org/abs/1812.00901">On Closest Pair in Euclidean Metric: Monochromatic is as Hard as Bichromatic</a></p>
+<p>The following paper is a sort of “sequel” to the one above, and provides hardness of approximation for some more general problems using some similar, but more sophisticated, arguments:</p>
+<p><a href="https://arxiv.org/abs/2111.05518">Applications of Random Algebraic Constructions to Hardness of Approximation</a></p>
+<h2 id="proof-systems">Proof Systems</h2>
+<h4 id="linear-size-ltcs-locally-testable-codes">Linear Size LTCs (Locally Testable Codes)</h4>
+<p><a href="https://arxiv.org/abs/2111.04808">Locally Testable Codes with constant rate, distance, and locality</a></p>
+<h4 id="near-linear-size-pcps">Near Linear Size PCPs</h4>
+<p>See the following papers</p>
+<p><a href="https://eccc.weizmann.ac.il/report/2012/045/">On the Concrete-Efficiency Threshold of Probabilistically-Checkable Proofs</a></p>
+<p><a href="http://www.wisdom.weizmann.ac.il/~dinuri/mypapers/combpcp.pdf">The PCP Theorem by Gap Amplification</a></p>
+<p><a href="http://madhu.seas.harvard.edu/papers/2005/rspcpp-full.pdf">Short PCPs with polylog query complexity</a></p>
+<p><a href="http://madhu.seas.harvard.edu/papers/2005/bghsv2-full.pdf">Short PCPs Verifiable in Polylogarithmic Time</a></p>
+<p><a href="http://madhu.seas.harvard.edu/papers/2004/bghsv-full.pdf">Robust PCPs of Proximity, Shorter PCPs and Applications to Coding</a></p>
+<h4 id="doubly-efficient-proof-systems">Doubly-efficient proof systems</h4>
+<p>See the following papers</p>
+<p><a href="https://eccc.weizmann.ac.il/report/2018/022/">Efficient Batch Verification for UP</a></p>
+<p><a href="https://eccc.weizmann.ac.il/report/2017/018/">Simple doubly-efficient interactive proof systems for locally-characterizable sets</a></p>
+<p><a href="https://eccc.weizmann.ac.il/report/2016/061/">Constant-Round Interactive Proofs for Delegating Computation</a></p>
+<h3 id="pcp-like-proof-systems">PCP-like proof systems</h3>
+<p>See the following papers</p>
+<p><a href="https://eprint.iacr.org/2016/324">Interactive Oracle Proofs with Constant Rate and Query Complexity</a></p>
+<p><a href="https://eprint.iacr.org/2016/116">Interactive Oracle Proofs</a></p>
+<h2 id="geometric-complexity-theory">Geometric Complexity Theory</h2>
+<h3 id="recent-developments">Recent Developments</h3>
+<p><a href="https://arxiv.org/abs/1604.06431">No occurrence obstructions in geometric complexity theory</a></p>
+<p><a href="https://arxiv.org/abs/1901.04576">On geometric complexity theory: Multiplicity obstructions are stronger than occurrence obstructions</a></p>
+<h2 id="other-topics">Other Topics</h2>
+<h4 id="np-hardness-of-the-2-to-2-game">NP-hardness of the 2-to-2 Game</h4>
+<p>Unique Game Conjecture, which states 1-to-1 games are NP-hard, is one of the most important conjectures in complexity theory. Several recent works have shown 2-to-2 games, a close variant of 1-to-1 games, are NP-hard.</p>
+<p>See this paper and the references therein</p>
+<p><a href="https://eccc.weizmann.ac.il/report/2018/006">Pseudorandom Sets in Grassmann Graph have Near-Perfect Expansion</a></p>
+<h4 id="time-space-lower-bounds-for-learning">Time-Space Lower Bounds for Learning</h4>
+<p>See this paper and the references therein</p>
+<p><a href="https://eccc.weizmann.ac.il/report/2019/071">Time-Space Lower Bounds for Two-Pass Learning</a></p>
+<h4 id="instantiations-of-the-relativization-barrier">Instantiations of the Relativization Barrier</h4>
+<p>See the following papers and the references therein</p>
+<p><a href="https://arxiv.org/pdf/cs/0504048.pdf">Oracles Are Subtle But Not Malicious</a></p>
+<h4 id="algebrization-barrier-to-circuit-lower-bounds">Algebrization Barrier to Circuit Lower Bounds</h4>
+<p>See the following papers:</p>
+<p><a href="http://www.scottaaronson.com/papers/alg.pdf">Algebrization: A New Barrier in Complexity Theory</a></p>
+<p><a href="https://eccc.weizmann.ac.il//report/2016/040/">Affine Relativization: Unifying the Algebrization and Relativization Barriers</a></p>
+<h4 id="natural-proofs-and-natural-properties">Natural Proofs and Natural Properties</h4>
+<p>See these papers and the references therein:</p>
+<p><a href="https://eccc.weizmann.ac.il/report/2017/023">The Power of Natural Properties as Oracles</a></p>
+<p><a href="https://eccc.weizmann.ac.il/report/2016/008">Algorithms from Natural Lower Bounds</a></p>
+<h4 id="necessary-conditions-for-lower-bounds">Necessary Conditions for Lower Bounds</h4>
+<p>Relativization, natural proofs, and algebrization present some barriers to proving certain lower bounds. The following recent paper takes a complementary view and, among other results, demonstrates some <em>necessary</em> conditions and implications of proving certain lower bounds:</p>
+<p><a href="https://eccc.weizmann.ac.il/report/2021/159/">Constructive Separations and Their Consequences</a></p>
+<h4 id="near-optimal-construction-of-extractor">Near-Optimal Construction of Extractor</h4>
+<p>See the following papers</p>
+<p><a href="https://arxiv.org/pdf/0901.2529.pdf">Extensions to the Method of Multiplicities, with applications to Kakeya Sets and Mergers</a></p>
+<p><a href="https://www.cs.cmu.edu/~venkatg/pubs/papers/PV-condenser.pdf">Unbalanced Expanders and Randomness Extractors from Parvaresh–Vardy Codes</a></p>
+<p><a href="https://www.cs.princeton.edu/~zdvir/papers/DvirWigderson08.pdf">Kakeya sets, new mergers and old extractors</a></p>
+<h4 id="recent-developments-on-sign-rank-threshold-of-ac0-circuits">Recent Developments on Sign-rank / threshold of AC^0 Circuits</h4>
+<p>See this paper and the references therein</p>
+<p><a href="https://arxiv.org/abs/1901.00988">Near-Optimal Lower Bounds on the Threshold Degree and Sign-Rank of AC^0</a></p>
+<h4 id="limits-on-instance-compression">Limits on Instance Compression</h4>
+<p>See the following papers</p>
+<p><a href="http://www.wisdom.weizmann.ac.il/~naor/PAPERS/compressibility.pdf">On the Compressibility of NP Instances and Cryptographic Applications</a></p>
+<p><a href="https://people.csail.mit.edu/rrw/presentations/fortnow-santhanam.pdf">Infeasibility of Instance Compression and Succinct PCPs for NP</a></p>
+<p><a href="http://people.cs.uchicago.edu/~adrucker1/newlimits.pdf">New Limits to Classical and Quantum Instance Compression</a></p>
+<h2 id="minimum-circuit-size-problem">Minimum Circuit Size Problem</h2>
+<h4 id="recent-concrete-lower-bounds-for-mcsp">Recent Concrete Lower Bounds for MCSP</h4>
+<p>This line of work proves several concrete lower bounds for the MCSP problem. They show that most state-of-the-art circuit lower bounds can be proved for the MCSP problems as well.</p>
+<p><a href="https://eccc.weizmann.ac.il/report/2019/022">Circuit Lower Bounds for MCSP from Local Pseudorandom Generators</a></p>
+<p><a href="https://eccc.weizmann.ac.il/report/2019/021"><span class="math inline">\(\text{AC}^{0}[p]\)</span> Lower Bounds and NP-Hardness for Variants of MCSP</a></p>
+<p><a href="https://eccc.weizmann.ac.il/report/2019/018"><span class="math inline">\(\text{AC}^0[p]\)</span> Lower Bounds against MCSP via the Coin Problem</a></p>
+<p>For even more recent results, see the following papers and their references:</p>
+<p><a href="https://eccc.weizmann.ac.il/report/2020/021/download">NP-Hardness of Circuit Minimization for Multi-Output Functions</a></p>
+<p><a href="https://www.rahulilango.com/papers/FOCS2020.pdf">Constant Depth Formula and Partial Function Versions of MCSP are Hard</a></p>
+<p><a href="https://www.rahulilango.com/papers/MFSP-hard.pdf">The Minimum Formula Size Problem is (ETH) Hard</a></p>
+<h4 id="average-case-to-worst-case-reduction-for-mcsp">Average-Case to Worst-Case Reduction for MCSP</h4>
+<p>A fundamental problem in complexity is whether there is a worst-case to average-case reduction for NP-complete problems. It has been shown that black-box reductions (which captures most of the previous reductions in complexity theory) cannot establish worst-case to average-case reductions for problems outside of <span class="math inline">\(\textsf{NP} \cap \textsf{coNP}\)</span>.</p>
+<p>In the following significant work, worst-case to average-case reduction is shown for a certain version of MCSP problem, which is believed to be not in <span class="math inline">\(\textsf{NP} \cap \textsf{coNP}\)</span>.</p>
+<p><a href="https://eccc.weizmann.ac.il/report/2018/138">Non-black-box Worst-case to Average-case Reductions within NP</a></p>
+<p>See also the follow-up work below.</p>
+<p><a href="https://eccc.weizmann.ac.il/report/2019/025">On Nonadaptive Security Reductions of Hitting Set Generators</a></p>
+<h4 id="np-hardness-for-mcsp-problems">NP-Hardness for MCSP Problems</h4>
+<p>Whether MCSP is NP-complete is an annoyingly open question in complexity theory. While the answer is still not clear, some works are showing certain variants of MCSP is NP-complete, and some other works showing there is circuit lower bounds barrier for proving MCSP is NP-complete.</p>
+<h5 id="on-np-hardness-for-variants-of-mcsp">1: On NP-hardness for variants of MCSP</h5>
+<p>See this paper and the references therein</p>
+<p><a href="https://eccc.weizmann.ac.il/report/2018/030">NP-hardness of Minimum Circuit Size Problem for OR-AND-MOD Circuits</a></p>
+<h5 id="on-barriers-for-proving-mcsp-is-np-complete">2: On Barriers for proving MCSP is NP-complete</h5>
+<p>See this paper and the references therein</p>
+<p><a href="http://theoryofcomputing.org/articles/v013a004/">On the (Non) NP-Hardness of Computing Circuit Complexity</a></p>
+</body>
+</html>
